@@ -1,0 +1,8243 @@
+@font-face {
+    font-family: 'Sahel-Bold';
+    src: url('images/Sahel-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Sahel-Light';
+    src: url('images/Sahel-Light.ttf');
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-image: url(images/12.jpg);
+    background-attachment: fixed
+}
+
+.topBlueCard {
+    height: 480px;
+    width: 100%;
+    background: #7f6ed6;
+    /*border-bottom-left-radius: 70%;*/
+    /*border-bottom-right-radius: 70%*/
+}
+
+.callBox {
+    width: 100%;
+    height: 50px !important;
+    background: #7f6ed6;
+    position: fixed;
+    z-index: 100;
+    font-family: Sahel-Bold;
+}
+
+.phone {
+    float: left;
+    position: relative;
+    left: 2%;
+    padding-top: 16px;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 15px
+}
+
+.textCall {
+    float: left;
+    left: 4%;
+    position: relative;
+    padding-top: 18px;
+    color: #fff;
+}
+
+.largeLogo {
+    position: absolute;
+    width: 45%;
+    right: 27%;
+    margin-top: 76px;
+}
+
+.textLogo {
+    position: absolute;
+    width: 30%;
+    right: 41%;
+    font-size: 20px;
+    color: #ffffff;
+    top: 218px;
+    font-family: Sahel-Bold;
+}
+
+.parag1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Sahel-Light;
+    padding: 0 1% 0;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.parag2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Sahel-Light;
+    font-size: 22px;
+}
+
+.bottomwhiteCard {
+    height: 175px;
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    margin-top: -90px;
+}
+
+.menusuggestion {
+    height: 770px;
+    width: 100%;
+    padding-top: 20px;
+    background: #FFF;
+}
+
+.rightPart {
+    display: inline-block;
+    height: 100%;
+    background: #fff
+}
+
+.leftPart {
+    display: inline-block;
+    height: 100%;
+    background: #fff
+}
+
+.middlePart {
+    display: inline-block;
+    height: 100%;
+    background: #fff
+}
+
+.tittleSuggestion {
+    text-align: center;
+    height: 53px;
+    font-size: 40px;
+    color: #555;
+    font-family: Sahel-Bold;
+}
+
+.boxSuggestion {
+    width: 100%;
+    height: 646px;
+    background: #fff
+}
+
+.itemSuggestion {
+    height: 33.33%;
+    background: #fff;
+}
+
+.sectionSuggestionStyle {
+    width: 80%;
+    transition: 40ms;
+    cursor: pointer;
+    height: 80%;
+    margin-top: 5%;
+    margin-right: 10%;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px #cecece;
+}
+
+.topicSuggestion {
+    position: inherit;
+    top: 74%;
+    font-size: 25px;
+    text-align: center;
+    font-family: Sahel-Light;
+}
+
+.topicIcon {
+    position: absolute;
+    width: 30%;
+    right: 34%;
+    top: 10%;
+}
+
+.topicIcon2 {
+    position: absolute;
+    width: 35%;
+    right: 34%;
+    top: 10%;
+}
+
+.softwareBoxTittle {
+    font-family: Sahel-Bold;
+    float: right;
+    margin-right: 5%;
+    margin-top: 142px;
+    font-size: 30px;
+}
+
+.aboutUs {
+    height: 410px;
+    width: 100%;
+    background: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+}
+
+.aboutUsTxt {
+    font-size: 40px;
+    font-family: Sahel-Bold;
+}
+
+.aboutUsTxtparag {
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 10px;
+    font-family: Sahel-Light;
+}
+
+.mobileBox {
+    height: 340px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    padding-top: 1.5%
+}
+
+.mobileBoxTittle {
+    padding-top: 133px;
+    padding-right: 6%;
+    position: absolute;
+    font-size: 30px;
+    font-family: Sahel-Bold;
+}
+
+.mobileBoxSection {
+    position: absolute;
+    right: 20%;
+    top: 49px;
+    line-height: 1.8;
+    font-size: 20px;
+    padding-right: 1%;
+    border-right: 1px solid #555;
+    font-family: Sahel-Light;
+}
+
+.mobileBoxImg {
+    float: left;
+    width: 33%;
+    left: 6%;
+    top: 19px;
+    position: relative;
+}
+
+.siteBox {
+    height: 340px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.siteboxTittle {
+    position: absolute;
+    left: 16%;
+    top: 30px;
+    font-size: 30px;
+    font-family: Sahel-Bold;
+}
+
+.siteBoxSection {
+    position: absolute;
+    left: 10%;
+    top: 78px;
+    line-height: 1.8;
+    font-size: 20px;
+    padding-top: 1%;
+    border-top: 1px solid #555;
+    font-family: Sahel-Light;
+}
+
+.siteBoxImg {
+    float: right;
+    width: 33%;
+    right: 10%;
+    top: 33px;
+    position: relative;
+}
+
+.nullUI {
+    height: 5rem;
+    width: 100%;
+    background: #f9f9f9eb;
+}
+
+.softwar3eBoxTittle {
+    padding-top: 150px;
+    padding-right: 10%;
+    position: absolute;
+    font-size: 30px;
+    font-family: Sahel-Bold;
+}
+
+.softwareBoxsection {
+    position: absolute;
+    right: 19%;
+    top: 65px;
+    line-height: 1.8;
+    font-size: 20px;
+    padding-right: 1%;
+    border-right: 1px solid #555;
+    font-family: Sahel-Light;
+}
+
+.process1Box {
+    height: 750px;
+    width: 100%;
+    background: #fff;
+}
+
+.process1Tittle {
+    text-align: center;
+    font-size: 37px;
+    font-family: Sahel-Bold;
+    padding-top: 30px;
+}
+
+.process1Hr {
+    width: 20%;
+    height: 0.1px;
+    background: #555
+}
+
+.process1Ul {
+    text-align: center;
+    margin-top: 21px;
+}
+
+.process1Li1 {
+    width: 20%;
+    float: right;
+    position: relative;
+    padding-top: 7px;
+    background: deeppink;
+    margin-right: 10%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer
+}
+
+.process1A1 {
+    display: block;
+    padding: 60px 30px;
+    color: #fff;
+    font-size: 27px;
+    font-family: Sahel-Light;
+}
+
+.process1I1 {
+    position: absolute;
+    top: 31px;
+    font-size: 6rem;
+    right: 0;
+    left: 0;
+    color: rgba(255, 255, 255, .2);
+}
+
+.describeBox {
+    width: 20%;
+    float: right;
+    position: relative;
+    padding-top: 7px;
+    background: #7f6ed6;
+    cursor: pointer
+}
+
+.process1I2 {
+    position: absolute;
+    top: 31px;
+    font-size: 6rem;
+    right: 0;
+    left: 0;
+    color: rgba(255, 255, 255, .2);
+    border-right: 1px solid #fff;
+}
+
+.fuseBoxLi {
+    width: 20%;
+    float: right;
+    position: relative;
+    padding-top: 7px;
+    background: #7f6ed6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer
+}
+
+.boxNaviation {
+    width: 80%;
+    height: 500px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 10%;
+    text-align: center
+}
+
+.imgNaviation {
+    width: 30%;
+    right: 34%;
+    /*top: 10%;*/
+    margin-top: 10px;
+}
+
+.captionProcess {
+    font-size: 31px;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: #555;
+    font-family: Sahel-Light;
+}
+
+.detailProcess {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 24px;
+    font-family: Sahel-Light;
+}
+
+.our1 {
+    text-align: center;
+    height: 355px;
+    width: 100%;
+    background: #f9f9f9eb;
+}
+
+.ourH1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    font-family: Sahel-Bold;
+}
+
+.ourHr {
+    width: 10%;
+    height: 0.1%;
+    background: #555
+}
+
+.ourImg1 {
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 30px;
+}
+
+.ourImg2 {
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 28%;
+}
+
+.design {
+    height: 400px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.designH1 {
+    position: absolute;
+    left: 16.5%;
+    top: 84px;
+    font-size: 30px;
+    font-family: Sahel-Bold;
+}
+
+.softwareSupportBoxsection {
+    top: 60px;
+}
+
+.DesignSection {
+    top: 130px;
+    left: 16%;
+}
+
+.designImg {
+    float: right;
+    width: 33%;
+    right: 5%;
+    position: relative;
+}
+
+.support {
+    height: 340px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.supportTittle {
+    padding-top: 148px;
+    padding-right: 5%;
+    position: absolute;
+    font-size: 30px;
+    font-family: Sahel-Bold;
+}
+
+.supportImg {
+    float: left;
+    width: 33%;
+    left: 5%;
+    position: relative;
+}
+
+.widget {
+    height: 200px;
+    width: 100%;
+    background: #f9f9f9eb;
+}
+
+.widgetUl {
+    padding-top: 42px;
+    text-align: center;
+}
+
+.widgetUlLI {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    float: right;
+    position: relative;
+    padding-top: 0.5%;
+    background: #a7a7a7;
+    cursor: pointer;
+    margin-right: 20%;
+}
+
+.widgetUlLI2 {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    float: right;
+    position: relative;
+    padding-top: 0.5%;
+    background: #8675da;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.widgetUlLI3 {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    float: right;
+    position: relative;
+    padding-top: 0.5%;
+    background: #a7a7a7;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.widgetUlLI_i {
+    line-height: 1.5;
+    font-family: Sahel-Light;
+    position: absolute;
+    top: 18px;
+    font-size: 2rem;
+    right: 0;
+    left: 0;
+    color: #fff;
+}
+
+.contentBoxSection {
+    top: 100px;
+}
+
+.content {
+    height: 360px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.contentH1 {
+    position: absolute;
+    left: 17%;
+    top: 57px;
+    font-size: 30px;
+    font-family: Sahel-Bold;
+}
+
+.contentImg {
+    float: right;
+    width: 33%;
+    right: 7%;
+    top: 54px;
+    position: relative;
+}
+
+.order {
+    text-align: center;
+    height: 340px;
+    width: 100%;
+    background: #f9f9f9eb;
+}
+
+.orderH1 {
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: Sahel-Bold;
+}
+
+.orderHr {
+    width: 13%;
+    height: 0.1%;
+    background: #555
+}
+
+.orderDescription {
+    width: 45%;
+    margin: 2% auto;
+}
+
+.orderP1 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Sahel-Light;
+}
+
+.orderP2 {
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 13px;
+    font-family: Sahel-Light;
+}
+
+.goal {
+    border-radius: 3px;
+    z-index: 2;
+    position: absolute;
+    width: 66.66%;
+    height: 230px;
+    background: #fff;
+    top: 300px;
+    margin-left: 16.67%;
+    margin-right: 16.67%;
+    box-shadow: 2px 2px 10px #cecece;
+    font-size: 18px;
+}
+
+.goalH1 {
+    text-align: center;
+    font-size: 29px;
+    z-index: 2;
+    color: #8675da;
+    margin-top: 20px;
+    font-family: Sahel-Bold;
+}
+
+.ali1:before {
+    content: "";
+    width: 100%;
+    height: 8px;
+    margin: -4px 0 0 11%;
+    position: absolute;
+    top: 64px;
+    left: 100%;
+    background: #a7a7a7;
+}
+
+.ali:before {
+    content: "";
+    background: none;
+}
+
+
+/*----------------------------------------------*/
+
+
+/*
+280-320
+320-360
+360-375
+375-411
+411-454
+454-497
+497-540
+540-768
+768-1024
+*/
+
+#dimg_30:hover {
+    border: 1px solid #6f3bff;
+    cursor: pointer;
+}
+
+#dimg_25:hover {
+    border: 1px solid #6f3bff;
+    cursor: pointer;
+}
+
+#wp_thbn_24:hover {
+    border: 1px solid #6f3bff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 280px) {
+    body :not(#centerLogo) {
+        display: none;
+    }
+    html {
+        background: #8675da;
+    }
+}
+
+@media only screen and (min-width: 280px) {
+    #centerLogo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .widget {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 280px) {
+    .topBlueCard {
+        height: 190px;
+    }
+    .goal {
+        top: 111px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 120px;
+    }
+    .goalH1 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .parag1 {
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 1.8;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 37%;
+        margin-top: 46px;
+        right: 32%;
+    }
+    .callBox {
+        height: 35px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 45%;
+        right: 32%;
+        font-size: 8px;
+        top: 74px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        font-size: 14px;
+        padding-top: 13px;
+    }
+    .textCall {
+        font-size: 10px;
+        padding-top: 14px !important;
+        left: 0;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 100px;
+    }
+    .tittleSuggestion {
+        height: 24px;
+        font-size: 15px;
+    }
+    .boxSuggestion {
+        height: 250px;
+    }
+    .menusuggestion {
+        height: 270px;
+        padding-top: 10px;
+    }
+    .topicSuggestion {
+        font-size: 10px;
+        line-height: 1.5;
+        top: 47%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 400px;
+    }
+    .aboutUsTxt {
+        font-size: 15px;
+    }
+    .aboutUsTxtparag {
+        font-size: 10px;
+        line-height: 2.1;
+    }
+    .mobileBox {
+        height: 374px;
+    }
+    .mobileBoxTittle {
+        padding-top: 16px;
+        padding-right: 34%;
+        font-size: 13px;
+    }
+    .mobileBoxSection {
+        right: 12%;
+        top: 40px;
+        font-size: 10px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 100%;
+        top: 195px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 37%;
+        top: 27px;
+        font-size: 13px;
+    }
+    .siteBoxSection {
+        left: 19%;
+        top: 47px;
+        font-size: 11px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 85%;
+        top: 180px;
+        right: 7%;
+    }
+    .softwareBoxTittle {
+        font-size: 13px;
+        margin-top: 0;
+        padding-top: 16px;
+        margin-right: 36%;
+        padding-right: 1.5px;
+    }
+    .SoftBoxImage {
+        top: 130px !important;
+    }
+    .siteBox {
+        height: 340px;
+    }
+    .softwareBoxsection {
+        font-size: 11px;
+        right: 7%;
+        top: 34px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 345px;
+    }
+    .process1Tittle {
+        padding-top: 22px;
+        font-size: 13px;
+    }
+    .process1A1 {
+        padding: 20px 0 !important;
+        font-size: 11px;
+    }
+    .PadTop {
+        font-size: 11px;
+        padding: 22px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 63px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        top: 12px;
+        font-size: 2rem;
+    }
+    .describeBox {
+        height: 63px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 16px;
+        font-size: 2rem;
+    }
+    .fuseBoxLi {
+        height: 63px;
+        width: 22.5%;
+        padding-top: 7px;
+    }
+    .nullUI {
+        height: 2rem;
+    }
+    .captionProcess {
+        font-size: 17px;
+    }
+    .detailProcess {
+        font-size: 11px;
+    }
+    .boxNaviation {
+        height: 180px;
+    }
+    .process1Box {
+        height: 425px;
+    }
+    .ourH1 {
+        font-size: 13px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 10px;
+        width: 26%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 328px;
+    }
+    .design {
+        height: 364px;
+    }
+    .designH1 {
+        left: 36%;
+        top: 17px;
+        font-size: 13px;
+    }
+    .DesignSection {
+        left: 31%;
+        top: 36px;
+    }
+    .designImg {
+        width: 95%;
+        right: 2.5%;
+        top: 135px;
+    }
+    .supportTittle {
+        padding-top: 21px;
+        padding-right: 33%;
+        font-size: 13px;
+    }
+    .softwareSupportBoxsection {
+        right: 17%;
+        top: 40px;
+        border-top: none;
+        border-right: none;
+        border-top: 1px solid #555;
+    }
+    .process1Hr {
+        width: 31%;
+        height: 0.1px;
+        background: #555
+    }
+    .widgetUl {
+        padding-top: 10px;
+    }
+    #support1 {
+        height: 400px;
+    }
+    .supportImg {
+        width: 90%;
+        left: 5%;
+        top: 192px;
+    }
+    .widgetUlLI {
+        width: 60px;
+        height: 60px;
+        margin-right: 2%;
+    }
+    .widgetUlLI_i {
+        font-size: 12px;
+        top: 34%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 60px;
+        height: 60px;
+    }
+    .ali1 {
+        margin: 0 5% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 18%;
+        height: 3px;
+        margin-left: 2px;
+        top: 27px;
+    }
+    .widget {
+        height: 80px;
+    }
+    .widgetUlLI3 {
+        width: 60px;
+        height: 60px;
+    }
+    .contentH1 {
+        font-size: 13px;
+        left: 40%;
+        top: 6%;
+    }
+    .contentBoxSection {
+        left: 17%;
+        top: 40px;
+        font-size: 11px;
+    }
+    .orderHr {
+        width: 30%;
+        height: 0.1%;
+        background: #555
+    }
+    .content {
+        height: 350px;
+    }
+    .contentImg {
+        right: 0;
+        width: 100%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .orderP1 {
+        font-size: 12px;
+    }
+    .orderP2 {
+        font-size: 12px;
+    }
+    .order {
+        height: 200px;
+    }
+    .ourHr {
+        width: 25%;
+    }
+    #wp_thbn_24,
+    #dimg_25,
+    #dimg_30 {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+    .support {
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 321px) {
+    .topBlueCard {
+        height: 206px;
+    }
+    .goal {
+        top: 125px;
+        width: 85%;
+        margin-right: 7.5%;
+        margin-left: 7.5%;
+        height: 113px;
+    }
+    .goalH1 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .parag1 {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 1.6;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 39%;
+        margin-top: 59px;
+        right: 30%;
+    }
+    .callBox {
+        height: 40px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 45%;
+        right: 29%;
+        font-size: 10px;
+        top: 95px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 3%;
+        font-size: 15px;
+    }
+    .textCall {
+        font-size: 11px;
+        left: 1%;
+        padding-top: 17px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 105px;
+    }
+    .tittleSuggestion {
+        height: 24px;
+        font-size: 15px;
+    }
+    .boxSuggestion {
+        height: 250px;
+    }
+    .menusuggestion {
+        height: 280px;
+    }
+    .topicSuggestion {
+        font-size: 10px;
+        line-height: 1.5;
+        top: 55%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+    }
+    .aboutUsTxt {
+        font-size: 15px;
+    }
+    .aboutUsTxtparag {
+        font-size: 12px;
+        line-height: 1.9;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 374px;
+    }
+    .mobileBoxTittle {
+        padding-top: 77px;
+        padding-right: 0;
+        font-size: 12px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 20px;
+        font-size: 11px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 100%;
+        top: 168px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 40%;
+        top: 27px;
+        font-size: 13px;
+    }
+    .siteBoxSection {
+        left: 21%;
+        top: 47px;
+        font-size: 12px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 88%;
+        top: 180px;
+        right: 0;
+    }
+    .softwareBoxTittle {
+        font-size: 11px;
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-top: 75px;
+    }
+    .SoftBoxImage {
+        top: 72px !important;
+    }
+    .siteBox {
+        height: 340px;
+    }
+    .softwareBoxsection {
+        font-size: 11px;
+        right: 22%;
+        top: 35px;
+    }
+    .SoftBox {
+        height: 345px;
+    }
+    .process1Tittle {
+        padding-top: 15%;
+        font-size: 13px;
+    }
+    .process1A1 {
+        padding: 20px 0 !important;
+        font-size: 13px;
+    }
+    .PadTop {
+        padding: 13px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 63px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3rem;
+        top: 9px;
+    }
+    .describeBox {
+        height: 63px;
+        padding-top: 6px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 11px;
+        font-size: 2.6rem;
+    }
+    .fuseBoxLi {
+        height: 63px;
+        width: 22.5%;
+        padding-top: 6px;
+    }
+    .nullUI {
+        height: 2rem;
+    }
+    .captionProcess {
+        font-size: 17px;
+    }
+    .detailProcess {
+        font-size: 11px;
+    }
+    .boxNaviation {
+        height: 180px;
+    }
+    .process1Box {
+        height: 425px;
+    }
+    .ourH1 {
+        font-size: 15px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 10px;
+        width: 26%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 360px;
+    }
+    .design {
+        height: 400px;
+    }
+    .designH1 {
+        left: 37%;
+        top: 16px;
+        font-size: 13px;
+    }
+    .DesignSection {
+        left: 32%;
+        top: 36px;
+    }
+    .designImg {
+        width: 90%;
+        right: 5%;
+        top: 155px;
+    }
+    .supportTittle {
+        padding-top: 91px;
+        padding-right: 2%;
+        font-size: 13px;
+    }
+    .softwareSupportBoxsection {
+        right: 31%;
+        font-size: 12px;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+    }
+    #support1 {
+        height: 400px;
+    }
+    .supportImg {
+        width: 83%;
+        left: 8.5%;
+        top: 185px;
+    }
+    .widgetUlLI {
+        width: 60px;
+        height: 60px;
+        margin-right: 1%;
+    }
+    .widgetUlLI_i {
+        font-size: 12px;
+        top: 34%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 60px;
+        height: 60px;
+    }
+    .ali1 {
+        margin: 0 8% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 36%;
+        height: 3px;
+        margin-left: 6%;
+        top: 27px;
+    }
+    .widget {
+        height: 80px;
+    }
+    .widgetUlLI3 {
+        width: 60px;
+        height: 60px;
+    }
+    .contentH1 {
+        font-size: 13px;
+        left: 40%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 17%;
+        top: 36px;
+        font-size: 12px;
+    }
+    .orderHr {
+        width: 25%;
+    }
+    .process1Hr {
+        width: 30%;
+    }
+    .ourHr {
+        width: 25%;
+    }
+    .content {
+        height: 350px;
+    }
+    .contentImg {
+        right: 0;
+        right: 7.5%;
+        width: 85%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .orderP1 {
+        font-size: 12px;
+    }
+    .orderP2 {
+        font-size: 12px;
+    }
+    .order {
+        height: 200px;
+    }
+    #wp_thbn_24,
+    #dimg_25,
+    #dimg_30 {
+        width: 28px;
+        height: 28px;
+        margin-top: 10px;
+    }
+    .support {
+        height: 390px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 361px) {
+    .topBlueCard {
+        height: 225px;
+    }
+    .goal {
+        top: 127px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 130px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .goalH1 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .parag1 {
+        margin-top: 15px;
+        font-size: 11px;
+        line-height: 1.8;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 44%;
+        margin-top: 51px;
+        right: 27%;
+    }
+    .callBox {
+        height: 43px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 45%;
+        right: 28%;
+        font-size: 11px;
+        top: 90px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        font-size: 14px;
+    }
+    .textCall {
+        font-size: 12px;
+        left: 2%;
+        top: 0;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 105px;
+    }
+    .tittleSuggestion {
+        height: 24px;
+        font-size: 16px;
+    }
+    .boxSuggestion {
+        height: 260px;
+    }
+    .menusuggestion {
+        height: 300px;
+        padding-top: 22px;
+    }
+    .topicSuggestion {
+        font-size: 10px;
+        line-height: 1.5;
+        top: 54%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+    }
+    .aboutUsTxt {
+        font-size: 15px;
+    }
+    .aboutUsTxtparag {
+        font-size: 12px;
+        line-height: 1.9;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 410px;
+    }
+    .mobileBoxTittle {
+        padding-top: 80px;
+        padding-right: 1%;
+        font-size: 13px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 12px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 100%;
+        top: 185px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 40%;
+        top: 25px;
+        font-size: 13px;
+    }
+    .siteBoxSection {
+        left: 21%;
+        top: 44px;
+        font-size: 12px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 88%;
+        top: 164px;
+        right: 4%;
+    }
+    .softwareBoxTittle {
+        font-size: 13px;
+        padding-right: 0;
+        padding-top: 75px;
+        padding-right: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .orderHr {
+        width: 25%;
+    }
+    .ourHr {
+        width: 25%;
+    }
+    .process1Hr {
+        width: 27%;
+    }
+    .SoftBoxImage {
+        top: 72px !important;
+    }
+    .siteBox {
+        height: 340px;
+    }
+    .softwareBoxsection {
+        font-size: 12px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 345px;
+    }
+    .process1Tittle {
+        padding-top: 60px;
+        font-size: 13px;
+    }
+    .process1A1 {
+        padding: 20px 0 !important;
+        font-size: 13px;
+    }
+    .PadTop {
+        padding: 20px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 63px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3rem;
+        top: 9px;
+    }
+    .describeBox {
+        height: 63px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 11px;
+        font-size: 2.6rem;
+    }
+    .fuseBoxLi {
+        height: 63px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 2rem;
+    }
+    .captionProcess {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .detailProcess {
+        font-size: 12px;
+    }
+    .boxNaviation {
+        height: 250px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .process1Box {
+        height: 455px;
+    }
+    .ourH1 {
+        font-size: 15px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 26%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 360px;
+    }
+    .design {
+        height: 420px;
+    }
+    .designH1 {
+        left: 38%;
+        top: 16px;
+        font-size: 13px;
+    }
+    .DesignSection {
+        left: 33%;
+        top: 36px;
+    }
+    .designImg {
+        width: 90%;
+        right: 5%;
+        top: 160px;
+    }
+    .supportTittle {
+        padding-top: 91px;
+        padding-right: 2%;
+        font-size: 13px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+    }
+    #support1 {
+        height: 420px;
+    }
+    .supportImg {
+        width: 80%;
+        left: 10%;
+        top: 192px;
+    }
+    .widgetUlLI {
+        width: 60px;
+        height: 60px;
+        margin-right: 5%;
+    }
+    .widgetUlLI_i {
+        font-size: 12px;
+        top: 34%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 60px;
+        height: 60px;
+    }
+    .ali1 {
+        margin: 0 8% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 36%;
+        height: 3px;
+        margin-left: 6%;
+        top: 27px;
+    }
+    .widget {
+        height: 80px;
+    }
+    .widgetUlLI3 {
+        width: 60px;
+        height: 60px;
+    }
+    .contentH1 {
+        font-size: 13px;
+        left: 43%;
+        top: 22px;
+    }
+    .contentBoxSection {
+        left: 22%;
+        top: 40px;
+        font-size: 12px;
+    }
+    .content {
+        height: 395px;
+    }
+    .contentImg {
+        right: 0;
+        width: 100%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 13px;
+    }
+    .orderP1 {
+        font-size: 12px;
+    }
+    .orderP2 {
+        font-size: 12px;
+    }
+    .order {
+        height: 190px;
+    }
+    #dimg_30,
+    #dimg_25,
+    #wp_thbn_24 {
+        width: 28px;
+        height: 28px;
+        margin-top: 5px;
+    }
+    .support {
+        height: 390px;
+    }
+}
+
+@media only screen and (max-width: 411px) and (min-width: 375px) {
+    .topBlueCard {
+        height: 250px;
+    }
+    .goal {
+        top: 146px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 130px;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+    .goalH1 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .parag1 {
+        margin-top: 17px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 44%;
+        margin-top: 54px;
+        right: 28%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 2px;
+    }
+    .textLogo {
+        width: 45%;
+        right: 30%;
+        font-size: 10px;
+        top: 100px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        font-size: 15px;
+    }
+    .textCall {
+        font-size: 12px;
+        left: 2%;
+        top: 0;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 105px;
+    }
+    .tittleSuggestion {
+        height: 24px;
+        font-size: 15px;
+    }
+    .boxSuggestion {
+        height: 280px;
+    }
+    .menusuggestion {
+        height: 310px;
+    }
+    .topicSuggestion {
+        font-size: 12px;
+        line-height: 1.5;
+        top: 50%;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 390px;
+    }
+    .aboutUsTxt {
+        font-size: 15px;
+    }
+    .aboutUsTxtparag {
+        font-size: 12px;
+        line-height: 1.9;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 410px;
+    }
+    .mobileBoxTittle {
+        padding-top: 80px;
+        padding-right: 1%;
+        font-size: 13px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 12px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 100%;
+        top: 185px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 43%;
+        top: 25px;
+        font-size: 13px;
+    }
+    .siteBoxSection {
+        left: 24%;
+        top: 44px;
+        font-size: 12px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 88%;
+        top: 180px;
+        right: 4%;
+    }
+    .softwareBoxTittle {
+        font-size: 13px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 2px;
+        padding-top: 75px;
+    }
+    .orderHr {
+        width: 25%;
+    }
+    .ourHr {
+        width: 25%;
+    }
+    .process1Hr {
+        width: 25%;
+    }
+    .SoftBoxImage {
+        top: 72px !important;
+    }
+    .siteBox {
+        height: 370px;
+    }
+    .softwareBoxsection {
+        font-size: 12px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 400px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 13px;
+    }
+    .process1A1 {
+        padding: 20px 0 !important;
+        font-size: 13px;
+    }
+    .PadTop {
+        padding: 20px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 63px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3rem;
+        top: 9px;
+    }
+    .describeBox {
+        height: 63px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 11px;
+        font-size: 2.6rem;
+    }
+    .fuseBoxLi {
+        height: 63px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 2rem;
+    }
+    .captionProcess {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .detailProcess {
+        font-size: 12px;
+    }
+    .boxNaviation {
+        height: 250px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .process1Box {
+        height: 430px;
+    }
+    .ourH1 {
+        font-size: 15px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 20%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 250px;
+    }
+    .design {
+        height: 420px;
+    }
+    .designH1 {
+        left: 40%;
+        top: 15px;
+        font-size: 13px;
+    }
+    .DesignSection {
+        left: 35%;
+        top: 36px;
+    }
+    .designImg {
+        width: 80%;
+        right: 10%;
+        top: 165px;
+    }
+    .supportTittle {
+        padding-top: 96px;
+        padding-right: 3%;
+        font-size: 13px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+    }
+    #support1 {
+        height: 450px;
+    }
+    .supportImg {
+        width: 80%;
+        left: 10%;
+        top: 180px;
+    }
+    .content {
+        height: 385px;
+    }
+    .widgetUlLI {
+        width: 60px;
+        height: 60px;
+        margin-right: 5%;
+    }
+    .widgetUlLI_i {
+        font-size: 12px;
+        top: 34%;
+    }
+    .widgetUlLI2 {
+        width: 60px;
+        height: 60px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 50%;
+        height: 3px;
+        margin-left: 6%;
+        top: 27px;
+    }
+    .widget {
+        height: 80px;
+    }
+    .widgetUlLI3 {
+        width: 60px;
+        height: 60px;
+    }
+    .contentH1 {
+        font-size: 13px;
+        left: 45%;
+        top: 24px;
+    }
+    .contentBoxSection {
+        left: 23%;
+        top: 44px;
+        font-size: 12px;
+    }
+    .content {
+        height: 425px;
+    }
+    .contentImg {
+        right: 0;
+        width: 100%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 15px;
+    }
+    .orderP1 {
+        font-size: 12px;
+    }
+    .orderP2 {
+        font-size: 13px;
+    }
+    .order {
+        height: 210px;
+    }
+    #dimg_30,
+    #dimg_25,
+    #wp_thbn_24 {
+        width: 28px;
+        height: 28px;
+        margin-top: 15px;
+    }
+    .support {
+        height: 390px;
+    }
+}
+
+@media only screen and (max-width: 454px) and (min-width: 411px) {
+    .topBlueCard {
+        height: 280px;
+    }
+    .goal {
+        top: 176px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 131px;
+    }
+    .goalH1 {
+        font-size: 17px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 13px;
+        line-height: 1.5;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 50%;
+        margin-top: 70px;
+        right: 24%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 11px;
+        top: 120px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .textCall {
+        font-size: 12px;
+        left: 2%;
+        top: 4px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 120px;
+    }
+    .tittleSuggestion {
+        height: 30px;
+        font-size: 18px;
+    }
+    .boxSuggestion {
+        height: 345px;
+    }
+    .menusuggestion {
+        height: 415px;
+    }
+    .topicSuggestion {
+        font-size: 14px;
+        line-height: 1.5;
+        top: 48%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 420px;
+        padding-top: 10px;
+    }
+    .aboutUsTxt {
+        font-size: 18px;
+    }
+    .aboutUsTxtparag {
+        font-size: 14px;
+        line-height: 1.9;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 460px;
+    }
+    .mobileBoxTittle {
+        padding-top: 90px;
+        padding-right: 1%;
+        font-size: 14px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 13px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 100%;
+        top: 200px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 41%;
+        top: 19px;
+        font-size: 14px;
+    }
+    .siteBoxSection {
+        left: 24%;
+        top: 44px;
+        font-size: 13px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 88%;
+        top: 185px;
+        right: 4%;
+    }
+    .softwareBoxTittle {
+        font-size: 14px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 1%;
+        padding-top: 80px;
+    }
+    .orderHr {
+        width: 25%;
+    }
+    .SoftBoxImage {
+        top: 72px !important;
+    }
+    .siteBox {
+        height: 380px;
+    }
+    .softwareBoxsection {
+        font-size: 13px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 400px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 14px;
+    }
+    .process1A1 {
+        padding: 20px 0 !important;
+        font-size: 14px;
+    }
+    .PadTop {
+        padding: 20px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 70px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3rem;
+        top: 13px;
+    }
+    .describeBox {
+        height: 70px;
+        padding-top: 1.5%;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 13px;
+        font-size: 2.6rem;
+    }
+    .fuseBoxLi {
+        height: 70px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .detailProcess {
+        font-size: 13px;
+    }
+    .boxNaviation {
+        height: 250px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .process1Box {
+        height: 440px;
+    }
+    .ourH1 {
+        font-size: 15px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 20%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 250px;
+    }
+    .design {
+        height: 450px;
+    }
+    .designH1 {
+        left: 38%;
+        top: 12px;
+        font-size: 14px;
+    }
+    .DesignSection {
+        left: 33%;
+        top: 36px;
+    }
+    .designImg {
+        width: 80%;
+        right: 10%;
+        top: 155px;
+    }
+    .supportTittle {
+        padding-top: 100px;
+        padding-right: 3%;
+        font-size: 14px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+        text-align: center;
+    }
+    #support1 {
+        height: 450px;
+    }
+    .supportImg {
+        width: 75%;
+        left: 12.5%;
+        top: 185px;
+    }
+    .content {
+        height: 450px;
+    }
+    .widgetUlLI {
+        width: 60px;
+        height: 60px;
+        margin-right: 8%;
+    }
+    .widgetUlLI_i {
+        font-size: 12px;
+        top: 34%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 60px;
+        height: 60px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 50%;
+        height: 3px;
+        margin-left: 6%;
+        top: 27px;
+    }
+    .widget {
+        height: 80px;
+    }
+    .widgetUlLI3 {
+        width: 60px;
+        height: 60px;
+    }
+    .contentH1 {
+        font-size: 14px;
+        left: 43%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 23%;
+        top: 44px;
+        font-size: 13px;
+    }
+    .ourHr {
+        width: 25%;
+    }
+    .process1Hr {
+        width: 27%;
+    }
+    .content {
+        height: 470px;
+    }
+    .contentImg {
+        right: 0;
+        width: 100%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 15px;
+    }
+    .orderP1 {
+        font-size: 12px;
+    }
+    .orderP2 {
+        font-size: 13px;
+    }
+    .order {
+        height: 210px;
+    }
+    #dimg_30,
+    #dimg_25,
+    #wp_thbn_24 {
+        width: 28px;
+        height: 28px;
+        margin-top: 15px;
+    }
+    .support {
+        height: 410px;
+    }
+}
+
+@media only screen and (max-width: 497px) and (min-width: 454px) {
+    .topBlueCard {
+        height: 300px;
+    }
+    .goal {
+        top: 188px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 127px;
+    }
+    .goalH1 {
+        font-size: 17px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 13px;
+        line-height: 1.7;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 70px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 12px;
+        top: 130px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .textCall {
+        font-size: 12px;
+        left: 2%;
+        top: 5px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 120px;
+    }
+    .tittleSuggestion {
+        height: 29px;
+        font-size: 17px;
+    }
+    .boxSuggestion {
+        height: 345px;
+    }
+    .menusuggestion {
+        height: 410px;
+    }
+    .orderHr {
+        width: 25%;
+    }
+    .topicSuggestion {
+        font-size: 14px;
+        line-height: 1.5;
+        top: 48%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 440px;
+        padding-top: 30px;
+    }
+    .aboutUsTxt {
+        font-size: 19px;
+    }
+    .aboutUsTxtparag {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 460px;
+    }
+    .mobileBoxTittle {
+        padding-top: 90px;
+        padding-right: 3%;
+        font-size: 14px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 13px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 100%;
+        top: 200px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 42%;
+        top: 22px;
+        font-size: 14px;
+    }
+    .siteBoxSection {
+        left: 25%;
+        top: 44px;
+        font-size: 14px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 80%;
+        top: 185px;
+        right: 10%;
+    }
+    .softwareBoxTittle {
+        font-size: 14px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 2%;
+        padding-top: 85px;
+    }
+    .SoftBoxImage {
+        top: 70px !important;
+        width: 80%;
+        margin-right: 10%;
+    }
+    .siteBox {
+        height: 395px;
+    }
+    .softwareBoxsection {
+        font-size: 14px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 400px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 14px;
+    }
+    .process1A1 {
+        padding: 20px 0 !important;
+        font-size: 14px;
+    }
+    .PadTop {
+        padding: 20px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 70px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3rem;
+        top: 13px;
+    }
+    .describeBox {
+        height: 70px;
+        padding-top: 1.5%;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 13px;
+        font-size: 2.6rem;
+    }
+    .fuseBoxLi {
+        height: 70px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 490px;
+    }
+    .ourH1 {
+        font-size: 15px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 1px;
+        width: 20%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 260px;
+    }
+    .design {
+        height: 480px;
+    }
+    .designH1 {
+        left: 38%;
+        top: 12px;
+        font-size: 15px;
+    }
+    .DesignSection {
+        left: 33%;
+        top: 36px;
+    }
+    .designImg {
+        width: 80%;
+        right: 10%;
+        top: 160px;
+    }
+    .supportTittle {
+        padding-top: 104px;
+        padding-right: 5%;
+        font-size: 14px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+        text-align: center;
+    }
+    #support1 {
+        height: 490px;
+    }
+    .supportImg {
+        width: 72%;
+        left: 14%;
+        top: 215px;
+    }
+    .content {
+        height: 450px;
+    }
+    .widgetUlLI {
+        width: 60px;
+        height: 60px;
+        margin-right: 8%;
+    }
+    .widgetUlLI_i {
+        font-size: 12px;
+        top: 34%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 60px;
+        height: 60px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 50%;
+        height: 3px;
+        margin-left: 6%;
+        top: 27px;
+    }
+    .widget {
+        height: 80px;
+    }
+    .widgetUlLI3 {
+        width: 60px;
+        height: 60px;
+    }
+    .contentH1 {
+        font-size: 15px;
+        left: 43%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 24%;
+        top: 44px;
+        font-size: 13px;
+    }
+    .content {
+        height: 470px;
+    }
+    .contentImg {
+        right: 5%;
+        width: 90%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 15px;
+    }
+    .orderP1 {
+        font-size: 12px;
+    }
+    .orderP2 {
+        font-size: 13px;
+    }
+    .order {
+        height: 210px;
+    }
+    .support {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 540px) and (min-width: 497px) {
+    .topBlueCard {
+        height: 320px;
+    }
+    .goal {
+        top: 199px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 157px;
+    }
+    .goalH1 {
+        font-size: 18px;
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 14px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 76px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 12px;
+        top: 140px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .textCall {
+        font-size: 13px;
+        left: 2%;
+        top: 3px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 29px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .boxSuggestion {
+        height: 354px;
+    }
+    .menusuggestion {
+        height: 450px;
+    }
+    .topicSuggestion {
+        font-size: 14px;
+        line-height: 1.4;
+        top: 55%;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 450px;
+        padding-top: 10px;
+    }
+    .aboutUsTxt {
+        font-size: 19px;
+    }
+    .aboutUsTxtparag {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 525px;
+    }
+    .mobileBoxTittle {
+        padding-top: 100px;
+        padding-right: 3%;
+        font-size: 15px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 16px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 80%;
+        margin-right: 10%;
+        top: 235px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 42%;
+        top: 19px;
+        font-size: 15px;
+    }
+    .siteBoxSection {
+        left: 23%;
+        top: 44px;
+        font-size: 16px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 80%;
+        top: 210px;
+        right: 10%;
+    }
+    .softwareBoxTittle {
+        font-size: 15px;
+        padding-right: 2%;
+        padding-top: 95px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .SoftBoxImage {
+        top: 72px !important;
+        width: 80%;
+        margin-right: 10%;
+    }
+    .siteBox {
+        height: 440px;
+    }
+    .softwareBoxsection {
+        font-size: 16px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 465px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 15px;
+    }
+    .process1A1 {
+        padding: 27px 0 !important;
+        font-size: 18px;
+    }
+    .PadTop {
+        padding: 24px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 85px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 15px;
+    }
+    .describeBox {
+        height: 85px;
+        padding-top: 1.5%;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 15px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 85px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 490px;
+    }
+    .ourH1 {
+        font-size: 16px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 18%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 275px;
+    }
+    .design {
+        height: 510px;
+    }
+    .designH1 {
+        left: 40%;
+        top: 12px;
+        font-size: 15px;
+    }
+    .DesignSection {
+        left: 33%;
+        top: 36px;
+    }
+    .designImg {
+        width: 80%;
+        right: 0;
+        margin-right: 10%;
+        top: 180px;
+    }
+    .supportTittle {
+        padding-top: 121px;
+        padding-right: 4%;
+        font-size: 15px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+        text-align: center;
+    }
+    #support1 {
+        height: 520px;
+    }
+    .supportImg {
+        width: 65%;
+        left: 17.5%;
+        top: 215px;
+    }
+    .content {
+        height: 515px;
+    }
+    .widgetUlLI {
+        width: 75px;
+        height: 75px;
+        margin-right: 5%;
+    }
+    .widgetUlLI_i {
+        font-size: 15px;
+        top: 34%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 75px;
+        height: 75px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 50%;
+        height: 3px;
+        margin-left: 6%;
+        top: 36px;
+    }
+    .widget {
+        height: 100px;
+    }
+    .widgetUlLI3 {
+        width: 75px;
+        height: 75px;
+    }
+    .contentH1 {
+        font-size: 15px;
+        left: 43%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 25%;
+        top: 48px;
+        font-size: 14px;
+    }
+    .content {
+        height: 470px;
+    }
+    .contentImg {
+        right: 0;
+        width: 80%;
+        margin-right: 10%;
+        top: 46%;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 15px;
+    }
+    .orderP1 {
+        font-size: 14px;
+    }
+    .orderP2 {
+        font-size: 15px;
+    }
+    .order {
+        height: 230px;
+    }
+    .orderHr {
+        width: 20%;
+    }
+    .ourHr {
+        width: 18%;
+    }
+    .support {
+        height: 455px;
+    }
+}
+
+@media only screen and (max-width: 583px) and (min-width: 540px) {
+    .topBlueCard {
+        height: 330px;
+    }
+    .goal {
+        top: 200px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 157px;
+    }
+    .goalH1 {
+        font-size: 20px;
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 15px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 76px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 12px;
+        top: 143px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 18px;
+        font-size: 18px;
+    }
+    .textCall {
+        font-size: 13px;
+        left: 2%;
+        top: 3px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 40px;
+        margin-top: 20px;
+        font-size: 21px;
+    }
+    .boxSuggestion {
+        height: 385px;
+    }
+    .menusuggestion {
+        height: 480px;
+    }
+    .topicSuggestion {
+        font-size: 15px;
+        line-height: 1.4;
+        top: 55%;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 500px;
+        padding-top: 35px;
+    }
+    .aboutUsTxt {
+        font-size: 20px;
+    }
+    .aboutUsTxtparag {
+        font-size: 17px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 525px;
+    }
+    .mobileBoxTittle {
+        padding-top: 100px;
+        padding-right: 2%;
+        font-size: 17px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 16px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 80%;
+        margin-right: 10%;
+        top: 235px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 42%;
+        top: 19px;
+        font-size: 17px;
+    }
+    .siteBoxSection {
+        left: 25%;
+        top: 44px;
+        font-size: 16px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 80%;
+        top: 210px;
+        right: 10%;
+    }
+    .softwareBoxTittle {
+        font-size: 16px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 2%;
+        padding-top: 93px;
+    }
+    .orderHr {
+        width: 20%;
+    }
+    .ourHr {
+        width: 20%;
+    }
+    .process1Hr {
+        width: 20%;
+    }
+    .SoftBoxImage {
+        top: 80px !important;
+        width: 80%;
+        margin-right: 10%;
+    }
+    .siteBox {
+        height: 450px;
+    }
+    .softwareBoxsection {
+        font-size: 16px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 465px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 17px;
+    }
+    .process1A1 {
+        padding: 27px 0 !important;
+        font-size: 18px;
+    }
+    .PadTop {
+        padding: 24px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 85px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 15px;
+    }
+    .describeBox {
+        height: 85px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 15px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 85px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 490px;
+    }
+    .ourH1 {
+        font-size: 16px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 18%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 285px;
+    }
+    .design {
+        height: 554px;
+    }
+    .designH1 {
+        left: 41%;
+        top: 12px;
+        font-size: 17px;
+    }
+    .DesignSection {
+        left: 35%;
+        top: 36px;
+    }
+    .designImg {
+        width: 80%;
+        right: 0;
+        margin-right: 10%;
+        top: 180px;
+    }
+    .supportTittle {
+        padding-top: 118px;
+        padding-right: 3%;
+        font-size: 17px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+        text-align: center;
+    }
+    #support1 {
+        height: 540px;
+    }
+    .supportImg {
+        width: 52%;
+        left: 24%;
+        top: 240px;
+    }
+    .content {
+        height: 515px;
+    }
+    .widgetUlLI {
+        width: 75px;
+        height: 75px;
+        margin-right: 7%;
+    }
+    .widgetUlLI_i {
+        font-weight: bolder;
+        font-size: 15px;
+        top: 34%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 75px;
+        height: 75px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 59%;
+        height: 3px;
+        margin-left: 6%;
+        top: 37px;
+    }
+    .widget {
+        height: 100px;
+    }
+    .widgetUlLI3 {
+        width: 75px;
+        height: 75px;
+    }
+    .contentH1 {
+        font-size: 17px;
+        left: 43%;
+        top: 22px;
+    }
+    .contentBoxSection {
+        left: 27%;
+        top: 48px;
+        font-size: 14px;
+    }
+    .content {
+        height: 470px;
+    }
+    .contentImg {
+        right: 0;
+        width: 80%;
+        margin-right: 10%;
+        top: 208px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 14px;
+    }
+    .orderP2 {
+        font-size: 16px;
+    }
+    .order {
+        height: 210px;
+    }
+    .support {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 626px) and (min-width: 583px) {
+    .topBlueCard {
+        height: 350px;
+    }
+    .goal {
+        top: 205px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 21px;
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 76px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 13px;
+        top: 145px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .textCall {
+        font-size: 13px;
+        left: 2%;
+        top: 4px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 40px;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .boxSuggestion {
+        height: 390px;
+    }
+    .menusuggestion {
+        height: 480px;
+    }
+    .topicSuggestion {
+        font-size: 16px;
+        line-height: 1.3;
+        top: 55%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 500px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 23px;
+    }
+    .aboutUsTxtparag {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 527px;
+    }
+    .mobileBoxTittle {
+        padding-top: 100px;
+        padding-right: 4%;
+        font-size: 17px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 16px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 70%;
+        margin-right: 15%;
+        top: 240px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 44%;
+        top: 19px;
+        font-size: 17px;
+    }
+    .siteBoxSection {
+        left: 27%;
+        top: 44px;
+        font-size: 16px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 80%;
+        top: 200px;
+        right: 10%;
+    }
+    .softwareBoxTittle {
+        font-size: 17px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 3%;
+        padding-top: 93px;
+    }
+    .SoftBoxImage {
+        top: 80px !important;
+        width: 75%;
+        margin-right: 12.5%;
+    }
+    .siteBox {
+        height: 450px;
+    }
+    .softwareBoxsection {
+        font-size: 16px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 465px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 17px;
+    }
+    .process1A1 {
+        padding: 27px 0 !important;
+        font-size: 18px;
+    }
+    .PadTop {
+        padding: 24px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 85px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 15px;
+    }
+    .describeBox {
+        height: 85px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 15px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 85px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 520px;
+    }
+    .ourH1 {
+        font-size: 17px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 16%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 285px;
+    }
+    .design {
+        height: 530px;
+    }
+    .designH1 {
+        left: 40%;
+        top: 12px;
+        font-size: 17px;
+    }
+    .DesignSection {
+        left: 35%;
+        top: 40px;
+    }
+    .designImg {
+        width: 70%;
+        right: 0;
+        margin-right: 15%;
+        top: 180px;
+    }
+    .supportTittle {
+        padding-top: 118px;
+        padding-right: 6%;
+        font-size: 17px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+        text-align: center;
+    }
+    #support1 {
+        height: 540px;
+    }
+    .supportImg {
+        width: 70%;
+        left: 15%;
+        top: 240px;
+    }
+    .content {
+        height: 515px;
+    }
+    .widgetUlLI {
+        width: 75px;
+        height: 75px;
+        margin-right: 10%;
+    }
+    .widgetUlLI_i {
+        font-size: 15px;
+        top: 34%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 75px;
+        height: 75px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 61%;
+        height: 3px;
+        margin-left: 10%;
+        top: 36px;
+    }
+    .widget {
+        height: 100px;
+    }
+    .widgetUlLI3 {
+        width: 75px;
+        height: 75px;
+    }
+    .contentH1 {
+        font-size: 17px;
+        left: 43%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 27%;
+        top: 48px;
+        font-size: 14px;
+    }
+    .content {
+        height: 470px;
+    }
+    .contentImg {
+        right: 0;
+        width: 70%;
+        margin-right: 15%;
+        top: 208px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 14px;
+    }
+    .orderP2 {
+        font-size: 16px;
+    }
+    .order {
+        height: 220px;
+    }
+    .support {
+        height: 530px;
+    }
+}
+
+@media only screen and (max-width: 669px) and (min-width: 626px) {
+    .topBlueCard {
+        height: 370px;
+    }
+    .goal {
+        top: 225px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 23px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 14px;
+        top: 165px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .textCall {
+        font-size: 14px;
+        left: 2%;
+        top: 2px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 40px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .boxSuggestion {
+        height: 390px;
+    }
+    .menusuggestion {
+        height: 500px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 16px;
+        line-height: 1.3;
+        top: 64%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 500px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 527px;
+    }
+    .mobileBoxTittle {
+        padding-top: 109px;
+        padding-right: 4%;
+        font-size: 18px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 17px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 70%;
+        margin-right: 15%;
+        top: 247px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 44%;
+        top: 19px;
+        font-size: 18px;
+    }
+    .siteBoxSection {
+        left: 27%;
+        top: 44px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 70%;
+        top: 220px;
+        right: 15%;
+    }
+    .softwareBoxTittle {
+        font-size: 18px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 3%;
+        padding-top: 93px;
+    }
+    .orderHr {
+        width: 20%;
+    }
+    .ourHr {
+        width: 16%;
+    }
+    .SoftBoxImage {
+        top: 80px !important;
+        width: 75%;
+        margin-right: 12.5%;
+    }
+    .siteBox {
+        height: 450px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 465px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 18px;
+    }
+    .process1A1 {
+        padding: 27px 0 !important;
+        font-size: 18px;
+    }
+    .PadTop {
+        padding: 35px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 85px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 15px;
+    }
+    .describeBox {
+        height: 85px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 15px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 85px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 520px;
+    }
+    .ourH1 {
+        font-size: 18px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 16%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 285px;
+    }
+    .design {
+        height: 520px;
+    }
+    .designH1 {
+        left: 42%;
+        top: 12px;
+        font-size: 17px;
+    }
+    .DesignSection {
+        left: 37%;
+        top: 40px;
+    }
+    .designImg {
+        width: 70%;
+        right: 0;
+        margin-right: 15%;
+        top: 180px;
+    }
+    .supportTittle {
+        padding-top: 118px;
+        padding-right: 6%;
+        font-size: 18px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 10px;
+        text-align: center;
+    }
+    #support1 {
+        height: 540px;
+    }
+    .supportImg {
+        width: 70%;
+        left: 15%;
+        top: 240px;
+    }
+    .content {
+        height: 515px;
+    }
+    .widgetUlLI {
+        width: 75px;
+        height: 75px;
+        margin-right: 10%;
+    }
+    .widgetUlLI_i {
+        font-size: 15px;
+        top: 34%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 75px;
+        height: 75px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 61%;
+        height: 3px;
+        margin-left: 10%;
+        top: 36px;
+    }
+    .widget {
+        height: 100px;
+    }
+    .widgetUlLI3 {
+        width: 75px;
+        height: 75px;
+    }
+    .contentH1 {
+        font-size: 18px;
+        left: 43%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 30%;
+        top: 48px;
+        font-size: 14px;
+    }
+    .content {
+        height: 470px;
+    }
+    .contentImg {
+        right: 0;
+        width: 70%;
+        margin-right: 15%;
+        top: 208px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 14px;
+    }
+    .orderP2 {
+        font-size: 16px;
+    }
+    .order {
+        height: 210px;
+    }
+    .support {
+        height: 540px;
+    }
+}
+
+@media only screen and (max-width: 708px) and (min-width: 669px) {
+    .topBlueCard {
+        height: 390px;
+    }
+    .goal {
+        top: 225px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 23px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 14px;
+        top: 170px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .textCall {
+        font-size: 13px;
+        left: 2%;
+        top: 4px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    .boxSuggestion {
+        height: 450px;
+    }
+    .menusuggestion {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 17px;
+        line-height: 1.3;
+        top: 61%;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 500px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 565px;
+    }
+    .mobileBoxTittle {
+        padding-top: 114px;
+        padding-right: 4%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 26%;
+        top: 19px;
+        font-size: 18px;
+        padding-right: 1%;
+    }
+    .mobileBoxImg {
+        width: 70%;
+        margin-right: 15%;
+        top: 247px;
+        float: none;
+        left: 0;
+    }
+    .siteboxTittle {
+        left: 44%;
+        top: 19px;
+        font-size: 18px;
+    }
+    .siteBoxSection {
+        left: 29%;
+        top: 44px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 70%;
+        top: 220px;
+        right: 15%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 3%;
+        padding-top: 93px;
+    }
+    .SoftBoxImage {
+        top: 80px !important;
+        width: 75%;
+        margin-right: 12.5%;
+    }
+    .siteBox {
+        height: 472px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 23%;
+        top: 30px;
+    }
+    .SoftBox {
+        height: 465px;
+    }
+    .process1Tittle {
+        padding-top: 40px;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 27px 0 !important;
+        font-size: 18px;
+    }
+    .PadTop {
+        padding: 35px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 85px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 15px;
+    }
+    .describeBox {
+        height: 85px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 15px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 85px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 520px;
+    }
+    .ourH1 {
+        font-size: 18px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 4%;
+        padding-top: 5px;
+        width: 16%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 300px;
+    }
+    .design {
+        height: 520px;
+    }
+    .designH1 {
+        left: 42%;
+        top: 12px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 37%;
+        top: 40px;
+    }
+    .designImg {
+        width: 65%;
+        right: 0;
+        margin-right: 17.5%;
+        top: 180px;
+    }
+    .supportTittle {
+        padding-top: 118px;
+        padding-right: 6%;
+        font-size: 19px;
+    }
+    .softwareSupportBoxsection {
+        right: 28%;
+        top: 40px;
+    }
+    .widgetUl {
+        padding-top: 25px;
+        text-align: center;
+    }
+    #support1 {
+        height: 570px;
+    }
+    .supportImg {
+        width: 70%;
+        left: 15%;
+        top: 240px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 90px;
+        height: 90px;
+        margin-right: 9%;
+    }
+    .widgetUlLI_i {
+        font-size: 15px;
+        top: 34%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 90px;
+        height: 90px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 60%;
+        height: 3px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 90px;
+        height: 90px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 42%;
+        top: 5%;
+    }
+    .contentBoxSection {
+        left: 30%;
+        top: 48px;
+        font-size: 14px;
+    }
+    .content {
+        height: 485px;
+    }
+    .contentImg {
+        right: 0;
+        width: 70%;
+        margin-right: 15%;
+        top: 208px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 14px;
+    }
+    .orderP2 {
+        font-size: 16px;
+    }
+    .order {
+        height: 220px;
+    }
+    .support {
+        height: 570px;
+    }
+}
+
+@media only screen and (max-width: 758px) and (min-width: 708px) {
+    .topBlueCard {
+        height: 410px;
+    }
+    .goal {
+        top: 245px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 25px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 1.7;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 15px;
+        top: 180px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 15px;
+        left: 2%;
+        top: 3px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    .boxSuggestion {
+        height: 450px;
+    }
+    .menusuggestion {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 18px;
+        line-height: 1.2;
+        top: 70%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 450px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 14px;
+        padding-right: 18%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 2%;
+        top: 55px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 47%;
+        top: 42px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 17%;
+        top: 65px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 4%;
+        padding-top: 0;
+        top: 95px;
+        font-size: 17px;
+    }
+    .siteBoxImg {
+        width: 46%;
+        top: 67px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        padding-right: 19%;
+        padding-top: 45px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .SoftBoxImage {
+        top: 40px !important;
+        width: 50%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 280px;
+    }
+    .softwareBoxsection {
+        font-size: 16px;
+        right: 2%;
+        float: right;
+        top: 75px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 19px;
+    }
+    .PadTop {
+        padding: 45px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 300px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 14%;
+        top: 60px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 10%;
+        top: 87px;
+    }
+    .designImg {
+        width: 50%;
+        right: 0;
+        margin-right: 1%;
+        top: 5px;
+    }
+    .supportTittle {
+        padding-top: 30px;
+        padding-right: 14%;
+        font-size: 18px;
+    }
+    .softwareSupportBoxsection {
+        right: 4%;
+        top: 61px;
+    }
+    .widgetUl {
+        padding-top: 25px;
+        text-align: center;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 45%;
+        left: 5%;
+        top: 35px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 90px;
+        height: 90px;
+        margin-right: 10%;
+    }
+    .widgetUlLI_i {
+        font-size: 17px;
+        top: 34%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 90px;
+        height: 90px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 64%;
+        height: 4px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 90px;
+        height: 90px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 19%;
+        top: 39px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 65px;
+        font-size: 17px;
+    }
+    .content {
+        height: 250px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 44px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 17px;
+    }
+    .orderP2 {
+        font-size: 17px;
+    }
+    .order {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 808px) and (min-width: 758px) {
+    .topBlueCard {
+        height: 410px;
+    }
+    .goal {
+        top: 240px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 25px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 1.7;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 50px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 15px;
+        top: 180px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 15px;
+        left: 2%;
+        top: 3px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    .boxSuggestion {
+        height: 450px;
+    }
+    .menusuggestion {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 18px;
+        line-height: 1.2;
+        top: 70%;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 450px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 14px;
+        padding-right: 18%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 2%;
+        top: 55px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 47%;
+        top: 42px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 17%;
+        top: 65px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 4%;
+        padding-top: 0;
+        top: 95px;
+        font-size: 17px;
+    }
+    .siteBoxImg {
+        width: 46%;
+        top: 67px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        padding-right: 19%;
+        padding-top: 45px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .SoftBoxImage {
+        top: 40px !important;
+        width: 50%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 280px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 2%;
+        float: right;
+        top: 75px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 19px;
+    }
+    .PadTop {
+        padding: 45px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 300px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 14%;
+        top: 60px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 10%;
+        top: 87px;
+    }
+    .designImg {
+        width: 50%;
+        right: 0;
+        margin-right: 1%;
+        top: 5px;
+    }
+    .supportTittle {
+        padding-top: 30px;
+        padding-right: 14%;
+        font-size: 18px;
+    }
+    .softwareSupportBoxsection {
+        right: 4%;
+        top: 61px;
+    }
+    .widgetUl {
+        padding-top: 25px;
+        text-align: center;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 45%;
+        left: 5%;
+        top: 35px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 90px;
+        height: 90px;
+        margin-right: 10%;
+    }
+    .widgetUlLI_i {
+        font-size: 17px;
+        top: 34%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 90px;
+        height: 90px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 64%;
+        height: 4px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 90px;
+        height: 90px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 19%;
+        top: 39px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 65px;
+        font-size: 17px;
+    }
+    .content {
+        height: 250px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 44px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 17px;
+    }
+    .orderP2 {
+        font-size: 17px;
+    }
+    .order {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 858px) and (min-width: 808px) {
+    .topBlueCard {
+        height: 440px;
+    }
+    .goal {
+        top: 260px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 23px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 16px;
+        top: 185px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 14px;
+        left: 3%;
+        top: 8px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 620px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 58%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 450px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 295px;
+    }
+    .mobileBoxTittle {
+        padding-top: 4px;
+        padding-right: 17%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 3%;
+        top: 46px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 45%;
+        top: 40px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 17%;
+        top: 60px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 5%;
+        top: 88px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 45%;
+        top: 70px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 19%;
+        padding-top: 41px;
+    }
+    .SoftBoxImage {
+        top: 30px !important;
+        width: 45%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 2%;
+        float: right;
+        top: 70px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 280px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 19px;
+    }
+    .PadTop {
+        padding: 45px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 10px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+        padding-top: 10px;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 300px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 21%;
+        top: 58px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 18%;
+        padding-top: 0;
+        top: 86px;
+    }
+    .designImg {
+        width: 45%;
+        right: 0;
+        margin-right: 1%;
+        top: 0;
+    }
+    .supportTittle {
+        padding-top: 41px;
+        padding-right: 15%;
+        font-size: 19px;
+    }
+    .softwareSupportBoxsection {
+        right: 5%;
+        top: 70px;
+    }
+    .widgetUl {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 45%;
+        left: 5%;
+        top: 35px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 100px;
+        height: 100px;
+        margin-right: 11%;
+    }
+    .widgetUlLI_i {
+        font-size: 18px;
+        top: 34%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 100px;
+        height: 100px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 60%;
+        height: 4px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 100px;
+        height: 100px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 18%;
+        top: 37px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 65px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 44px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 7px;
+    }
+    .orderP1 {
+        font-size: 16px;
+    }
+    .orderP2 {
+        font-size: 18px;
+    }
+    .order {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 908px) and (min-width: 858px) {
+    .topBlueCard {
+        height: 460px;
+    }
+    .goal {
+        top: 275px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 170px;
+    }
+    .goalH1 {
+        font-size: 23px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 16px;
+        top: 195px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 16px;
+        left: 3%;
+        top: 6px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 620px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 95px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 430px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 18px;
+        padding-right: 17%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 4%;
+        top: 60px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 45%;
+        top: 30px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 17%;
+        top: 68px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 7%;
+        top: 97px;
+        font-size: 17px;
+        padding-top: 0;
+    }
+    .siteBoxImg {
+        width: 41%;
+        top: 70px;
+        right: 5%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        padding-right: 19%;
+        padding-top: 40px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .SoftBoxImage {
+        top: 25px !important;
+        width: 45%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 4%;
+        float: right;
+        top: 70px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 22px;
+    }
+    .PadTop {
+        padding: 42px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 5px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+        padding-top: 5px;
+    }
+    .nullUI {
+        height: 3.5rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 310px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 20%;
+        top: 55px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 17%;
+        top: 85px;
+    }
+    .designImg {
+        width: 44%;
+        right: 0;
+        margin-right: 1%;
+        top: 0;
+    }
+    .supportTittle {
+        padding-top: 58px;
+        padding-right: 15%;
+        font-size: 19px;
+    }
+    .softwareSupportBoxsection {
+        right: 4%;
+        top: 88px;
+    }
+    .widgetUl {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 45%;
+        left: 5%;
+        top: 35px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 100px;
+        height: 100px;
+        margin-right: 13%;
+    }
+    .widgetUlLI_i {
+        font-size: 16px;
+        top: 36%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 100px;
+        height: 100px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 60%;
+        height: 3px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 100px;
+        height: 100px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 18%;
+        top: 57px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 84px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 44px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 15px;
+    }
+    .orderP2 {
+        font-size: 17px;
+    }
+    .order {
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width: 958px) and (min-width: 908px) {
+    .topBlueCard {
+        height: 440px;
+    }
+    .goal {
+        top: 250px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 23px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 16px;
+        top: 195px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 15px;
+        left: 3%;
+        top: 7px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 620px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 68%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 14px;
+        padding-right: 17%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 4%;
+        top: 58px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 43%;
+        top: 40px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 18%;
+        top: 67px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 8%;
+        top: 95px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 41%;
+        top: 70px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+        padding-right: 19%;
+        padding-top: 42px;
+    }
+    .SoftBoxImage {
+        top: 15px !important;
+        width: 45%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 5%;
+        float: right;
+        top: 73px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 19px;
+    }
+    .PadTop {
+        padding: 45px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 4rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 330px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 16%;
+        top: 57px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 13%;
+        padding-top: 0;
+        top: 88px;
+    }
+    .designImg {
+        width: 40%;
+        right: 6%;
+        margin-right: 1%;
+        top: 5px;
+    }
+    .supportTittle {
+        padding-top: 60px;
+        padding-right: 14%;
+        font-size: 19px;
+    }
+    .softwareSupportBoxsection {
+        right: 5%;
+        top: 90px;
+    }
+    .widgetUl {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 45%;
+        left: 5%;
+        top: 15px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 100px;
+        height: 100px;
+        margin-right: 14%;
+    }
+    .widgetUlLI_i {
+        font-size: 17px;
+        top: 37%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 100px;
+        height: 100px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 67%;
+        height: 4px;
+        margin-left: 10%;
+        top: 48px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 100px;
+        height: 100px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 17%;
+        top: 57px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 85px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 44px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 16px;
+    }
+    .orderP2 {
+        font-size: 16px;
+    }
+    .order {
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width: 1008px) and (min-width: 958px) {
+    .topBlueCard {
+        height: 465px;
+    }
+    .goal {
+        top: 270px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 178px;
+    }
+    .goalH1 {
+        font-size: 25px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 17px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: none;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 17px;
+        top: 200px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 16px;
+        left: 3%;
+        top: 7px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 620px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 70%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 0;
+        padding-right: 16%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 4%;
+        top: 45px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 43%;
+        top: 15px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 17%;
+        top: 66px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 7%;
+        top: 95px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 41%;
+        top: 67px;
+        right: 2%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        margin-right: 0;
+        margin-top: 0;
+        padding-right: 18%;
+        padding-top: 65px;
+    }
+    .SoftBoxImage {
+        top: 27px !important;
+        width: 45%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 5%;
+        float: right;
+        top: 94px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 20px;
+    }
+    .PadTop {
+        padding: 45px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 10px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+        padding-top: 10px;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 350px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 16%;
+        top: 55px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 13%;
+        top: 85px;
+    }
+    .designImg {
+        width: 40%;
+        right: 0;
+        margin-right: 4%;
+        top: 5px;
+    }
+    .supportTittle {
+        padding-top: 34px;
+        padding-right: 15%;
+        font-size: 18px;
+    }
+    .softwareSupportBoxsection {
+        right: 6%;
+        top: 61px;
+    }
+    .widgetUl {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 40%;
+        left: 2%;
+        top: 15px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 100px;
+        height: 100px;
+        margin-right: 14%;
+    }
+    .widgetUlLI_i {
+        font-size: 17px;
+        top: 38%;
+        font-weight: bolder;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .widgetUlLI2 {
+        width: 100px;
+        height: 100px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 74%;
+        height: 4px;
+        margin-left: 10%;
+        top: 49px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 100px;
+        height: 100px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 17%;
+        top: 55px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 80px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 44px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 10px;
+    }
+    .orderP1 {
+        font-size: 17px;
+    }
+    .orderP2 {
+        font-size: 17px;
+    }
+    .order {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 1008px) {
+    .topBlueCard {
+        height: 520px;
+    }
+    .goal {
+        top: 300px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 210px;
+    }
+    .goalH1 {
+        font-size: 24px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        display: block;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 18px;
+        top: 206px;
+    }
+    .leftPart {
+        width: 11% !important;
+    }
+    .rightPart {
+        width: 11% !important;
+    }
+    .middlePart {
+        width: 78% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 17px;
+        left: 3%;
+        top: 5px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 620px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 70%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 0;
+        padding-right: 18%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 6%;
+        top: 50px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 43%;
+        top: 22px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 16%;
+        top: 55px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 8%;
+        top: 89px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 41%;
+        top: 45px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        margin-top: 0;
+        padding-right: 13%;
+        padding-top: 51px;
+    }
+    .SoftBoxImage {
+        top: 25px !important;
+        width: 45%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 5%;
+        float: right;
+        top: 85px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 18px;
+    }
+    .PadTop {
+        padding: 45px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 32%;
+    }
+    .process1Box {
+        height: 580px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 350px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 17%;
+        top: 55px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 14%;
+        top: 83px;
+    }
+    .designImg {
+        width: 40%;
+        right: 0;
+        margin-right: 4%;
+        top: 0;
+    }
+    .supportTittle {
+        padding-top: 30px;
+        padding-right: 14%;
+        font-size: 19px;
+    }
+    .softwareSupportBoxsection {
+        right: 6%;
+        top: 60px;
+    }
+    .widgetUl {
+        padding-top: 19px;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 38%;
+        left: 3%;
+        top: 20px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 100px;
+        height: 100px;
+        margin-right: 17%;
+    }
+    .widgetUlLI_i {
+        font-size: 18px;
+        top: 36%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 100px;
+        height: 100px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 80%;
+        height: 4px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 100px;
+        height: 100px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 15%;
+        top: 50px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 80px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 35px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+    .orderP1 {
+        font-size: 17px;
+    }
+    .orderP2 {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .order {
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 1024px) {
+    .topBlueCard {
+        height: 520px;
+    }
+    .goal {
+        top: 300px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 210px;
+    }
+    .goalH1 {
+        font-size: 24px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        font-size: 18px;
+        display: block;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 18px;
+        top: 215px;
+    }
+    .leftPart {
+        width: 16.67% !important;
+    }
+    .rightPart {
+        width: 16.66% !important;
+    }
+    .middlePart {
+        width: 65.68% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 20px;
+    }
+    .textCall {
+        font-size: 17px;
+        left: 3%;
+        top: 5px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 620px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 73%;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+        padding-top: 34px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 6px;
+        padding-right: 18%;
+        font-size: 19px;
+    }
+    .mobileBoxSection {
+        right: 6%;
+        top: 50px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 43%;
+        top: 22px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 16%;
+        top: 62px;
+        font-size: 19px;
+    }
+    .siteBoxSection {
+        left: 8%;
+        top: 89px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 41%;
+        top: 45px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 19px;
+        float: right;
+        margin-top: 0;
+        padding-right: 13%;
+        padding-top: 57px;
+    }
+    .SoftBoxImage {
+        top: 20px !important;
+        width: 43%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 5%;
+        float: right;
+        top: 85px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .process1A1 {
+        padding: 35px 0 !important;
+        font-size: 21px;
+    }
+    .PadTop {
+        padding: 43px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 25px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 27%;
+    }
+    .process1Box {
+        height: 600px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 19px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 370px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 17%;
+        top: 55px;
+        font-size: 19px;
+    }
+    .DesignSection {
+        left: 14%;
+        top: 83px;
+    }
+    .designImg {
+        width: 37%;
+        right: 0;
+        margin-right: 4%;
+        top: 0;
+    }
+    .supportTittle {
+        padding-top: 46px;
+        padding-right: 14%;
+        font-size: 19px;
+    }
+    .softwareSupportBoxsection {
+        right: 6%;
+        top: 74px;
+    }
+    .widgetUl {
+        padding-top: 19px;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 38%;
+        left: 3%;
+        top: 20px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 100px;
+        height: 100px;
+        margin-right: 17%;
+    }
+    .widgetUlLI_i {
+        font-size: 18px;
+        top: 36%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 100px;
+        height: 100px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 80%;
+        height: 4px;
+        margin-left: 10%;
+        top: 45px;
+    }
+    .widget {
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 100px;
+        height: 100px;
+    }
+    .contentH1 {
+        font-size: 19px;
+        left: 15%;
+        top: 71px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 100px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 35px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 19px;
+        padding-top: 15px;
+    }
+    .orderP1 {
+        font-size: 17px;
+    }
+    .orderP2 {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .order {
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1100px) {
+    .topBlueCard {
+        height: 540px;
+    }
+    .goal {
+        top: 310px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 210px;
+    }
+    .goalH1 {
+        font-size: 24px;
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .parag1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 19px;
+        line-height: 1.8;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .parag2 {
+        margin-top: 28px;
+        font-size: 19px;
+        display: block;
+    }
+    .largeLogo {
+        top: 0;
+        width: 56%;
+        margin-top: 87px;
+        right: 21%;
+    }
+    .callBox {
+        height: 60px !important;
+        padding-top: 0;
+    }
+    .textLogo {
+        width: 100%;
+        right: 0;
+        text-align: center;
+        font-size: 21px;
+        top: 225px;
+    }
+    .leftPart {
+        width: 16.67% !important;
+    }
+    .rightPart {
+        width: 16.66% !important;
+    }
+    .middlePart {
+        width: 65.68% !important;
+    }
+    .phone {
+        left: 2%;
+        padding-top: 23px;
+        font-size: 22px;
+    }
+    .textCall {
+        font-size: 17px;
+        left: 3%;
+        top: 7px;
+    }
+    .bottomwhiteCard {
+        margin-top: -14%;
+        height: 140px;
+    }
+    .tittleSuggestion {
+        height: 45px;
+        margin-top: 35px;
+        font-size: 27px;
+    }
+    .boxSuggestion {
+        height: 500px;
+    }
+    .menusuggestion {
+        height: 660px;
+        padding-top: 25px;
+    }
+    .topicSuggestion {
+        font-size: 21px;
+        line-height: 1.2;
+        top: 73%;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .itemSuggestion {
+        height: 33.33%;
+    }
+    .aboutUs {
+        height: 410px;
+        padding-top: 54px;
+    }
+    .aboutUsTxt {
+        font-size: 24px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+        line-height: 1.8;
+        margin-top: 5px;
+    }
+    .mobileBox {
+        height: 310px;
+    }
+    .mobileBoxTittle {
+        padding-top: 4px;
+        padding-right: 15%;
+        font-size: 21px;
+    }
+    .mobileBoxSection {
+        right: 6%;
+        top: 50px;
+        font-size: 17px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .mobileBoxImg {
+        width: 43%;
+        top: 22px;
+        float: left;
+        left: 18px;
+    }
+    .siteboxTittle {
+        left: 15%;
+        top: 62px;
+        font-size: 21px;
+    }
+    .siteBoxSection {
+        left: 8%;
+        top: 89px;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    .siteBoxImg {
+        width: 41%;
+        top: 45px;
+        right: 3%;
+    }
+    .softwareBoxTittle {
+        font-size: 21px;
+        float: right;
+        margin-top: 0;
+        padding-right: 11%;
+        padding-top: 57px;
+    }
+    .SoftBoxImage {
+        top: 10px !important;
+        width: 41%;
+        float: left;
+        left: 0;
+    }
+    .siteBox {
+        height: 300px;
+    }
+    .softwareBoxsection {
+        font-size: 17px;
+        right: 5%;
+        float: right;
+        top: 85px;
+        border-top: 1px solid #555;
+        border-right: none;
+    }
+    .SoftBox {
+        height: 300px;
+    }
+    .process1Tittle {
+        padding-top: 0;
+        font-size: 21px;
+    }
+    .process1A1 {
+        padding: 33px 0 !important;
+        font-size: 25px;
+    }
+    .PadTop {
+        padding: 43px 0 !important;
+    }
+    .MargTop {
+        /*margin-top: 6%;*/
+    }
+    .process1Li1 {
+        height: 105px;
+        padding-top: 0;
+        width: 22.5%;
+        margin-right: 5%;
+    }
+    .process1I1 {
+        font-size: 3.6rem;
+        top: 25px;
+    }
+    .describeBox {
+        height: 105px;
+        padding-top: 7px;
+        width: 22.5%;
+    }
+    .process1I2 {
+        top: 25px;
+        font-size: 3.6rem;
+    }
+    .fuseBoxLi {
+        height: 105px;
+        width: 22.5%;
+    }
+    .nullUI {
+        height: 3rem;
+    }
+    .captionProcess {
+        font-size: 25px;
+        margin-top: 4px;
+    }
+    .detailProcess {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .boxNaviation {
+        height: 290px;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .imgNaviation {
+        width: 27%;
+    }
+    .process1Box {
+        height: 600px;
+        padding-top: 25px;
+    }
+    .ourH1 {
+        font-size: 21px;
+    }
+    .ourImg1 {
+        margin-left: 0;
+        margin-right: 2%;
+        padding-top: 5px;
+        width: 14%;
+    }
+    .ourImg2 {
+        display: none;
+    }
+    .our1 {
+        height: 385px;
+    }
+    .design {
+        height: 300px;
+    }
+    .designH1 {
+        left: 17%;
+        top: 55px;
+        font-size: 21px;
+    }
+    .DesignSection {
+        left: 14%;
+        top: 83px;
+    }
+    .designImg {
+        width: 37%;
+        right: 0;
+        margin-right: 4%;
+        top: 0;
+    }
+    .supportTittle {
+        padding-top: 51px;
+        padding-right: 15%;
+        font-size: 21px;
+    }
+    .softwareSupportBoxsection {
+        right: 8%;
+        top: 81px;
+    }
+    .widgetUl {
+        padding-top: 19px;
+    }
+    #support1 {
+        height: 300px;
+    }
+    .supportImg {
+        width: 37%;
+        left: 3%;
+        top: 14px;
+    }
+    /*.content {*/
+    /*height: 515px;*/
+    /*}*/
+    .widgetUlLI {
+        width: 140px;
+        height: 140px;
+        margin-right: 11%;
+    }
+    .widgetUlLI_i {
+        font-size: 25px;
+        top: 36%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bolder;
+    }
+    .widgetUlLI2 {
+        width: 140px;
+        height: 140px;
+    }
+    .ali1 {
+        margin: 0 10% 0 0;
+    }
+    .ali1:before {
+        margin: 0;
+        width: 63%;
+        height: 5px;
+        margin-left: 10%;
+        top: 67px;
+    }
+    .widget {
+        height: 180px;
+    }
+    .widgetUlLI3 {
+        width: 140px;
+        height: 140px;
+    }
+    .contentH1 {
+        font-size: 21px;
+        left: 14%;
+        top: 71px;
+    }
+    .contentBoxSection {
+        left: 5%;
+        top: 100px;
+        font-size: 17px;
+    }
+    .content {
+        height: 300px;
+    }
+    .contentImg {
+        right: 0;
+        width: 42%;
+        margin-right: 6%;
+        top: 20px;
+    }
+    .orderDescription {
+        width: 90%;
+    }
+    .orderH1 {
+        font-size: 21px;
+        padding-top: 15px;
+    }
+    .orderP1 {
+        font-size: 19px;
+    }
+    .orderP2 {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .order {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1200px) {
+    .topBlueCard {
+        height: 500px;
+    }
+    .largeLogo {
+        width: 51%;
+        right: 24%;
+        margin-top: 106px;
+    }
+    .textLogo {
+        right: 41%;
+        font-size: 20px;
+        top: 240px;
+    }
+    .goal {
+        top: 332px;
+    }
+    .mobileBoxTittle {
+        padding-top: 135px;
+        padding-right: 2%;
+    }
+    .mobileBoxImg {
+        width: 35%;
+        left: 6%;
+        top: 33px;
+    }
+    .siteBoxImg {
+        width: 40%;
+        top: 53px;
+        right: 8%;
+    }
+    .softwareBoxTittle {
+        margin-top: 140px;
+        margin-right: 2%;
+    }
+    .detailProcess {
+        font-size: 21px;
+        line-height: 1.8;
+    }
+    .ourImg1 {
+        margin-right: 1%;
+        margin-left: 0;
+        padding-top: 12px;
+    }
+    .designH1 {
+        top: 58px;
+    }
+    .DesignSection {
+        top: 100px;
+        left: 16%;
+    }
+    .designImg {
+        width: 40%;
+    }
+    .supportTittle {
+        padding-right: 1%;
+    }
+    .supportImg {
+        width: 37%;
+    }
+    .widgetUlLI3 {
+        width: 140px;
+        height: 140px;
+    }
+    .widgetUlLI2 {
+        width: 140px;
+        height: 140px;
+    }
+    .widgetUlLI {
+        margin-right: 12%;
+        width: 140px;
+        height: 140px;
+    }
+    .widgetUl {
+        padding-top: 30px;
+    }
+    .ali1:before {
+        margin: 5px 0 0 11%;
+        width: 67%;
+    }
+    .widgetUlLI_i {
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    .orderDescription {
+        width: 80%;
+    }
+    .order {
+        height: 250px;
+    }
+    .parag1,
+    .parag2 {
+        font-size: 21px;
+    }
+    .parag2 {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1300px) {
+    .topBlueCard {
+        height: 500px;
+    }
+    .largeLogo {
+        width: 51%;
+        right: 24%;
+        margin-top: 106px;
+    }
+    .textLogo {
+        right: 40%;
+        font-size: 21px;
+        top: 262px;
+    }
+    .goal {
+        height: 208px;
+        top: 332px;
+    }
+    .topicSuggestion {
+        top: 76%;
+        font-size: 26px;
+    }
+    .aboutUs {
+        height: 400px;
+    }
+    .aboutUsTxtparag {
+        font-size: 19px;
+    }
+    .parag1 {
+        font-size: 19px;
+    }
+    .mobileBoxTittle {
+        padding-right: 2%;
+    }
+    .mobileBoxImg {
+        top: 27px;
+    }
+    .siteBoxImg {
+        width: 37%;
+    }
+    .softwareBoxTittle {
+        margin-right: 3%;
+    }
+    .process1A1 {
+        font-size: 27px;
+    }
+    .detailProcess {
+        line-height: 1.9;
+        font-size: 22px;
+    }
+    .DesignSection {
+        top: 110px;
+    }
+    .designH1 {
+        top: 64px;
+    }
+    .supportTittle {
+        padding-right: 2%;
+    }
+    .supportImg {
+        width: 35%;
+    }
+    .designImg {
+        width: 37%;
+    }
+    .widgetUlLI {
+        width: 140px;
+        height: 140px;
+        margin-right: 15%;
+    }
+    .widgetUlLI2 {
+        width: 140px;
+        height: 140px;
+    }
+    .widgetUlLI3 {
+        width: 140px;
+        height: 140px;
+    }
+    .widgetUlLI_i {
+        top: 25px;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 30px;
+    }
+    .ali1:before {
+        width: 74%;
+        top: 72px;
+    }
+    #dimg_30,
+    #dimg_25,
+    #wp_thbn_24 {
+        width: 40px;
+        height: 40px;
+    }
+    .parag2 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1500px) {
+    .textLogo {
+        right: 39%;
+        font-size: 23px;
+        top: 219px;
+    }
+    #dimg_30,
+    #dimg_25,
+    #wp_thbn_24 {
+        width: 40px;
+        height: 40px;
+    }
+    .rightPart,
+    .leftPart {
+        width: 20% !important;
+    }
+    .middlePart {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1600px) {
+    .topBlueCard {
+        height: 500px;
+    }
+    .textLogo {
+        right: 39%;
+        font-size: 23px;
+        top: 230px;
+    }
+    .supportImg {
+        width: 30%;
+    }
+    .goal {
+        top: 320px;
+    }
+    #dimg_30,
+    #dimg_25,
+    #wp_thbn_24 {
+        width: 40px;
+        height: 40px;
+    }
+    .rightPart,
+    .leftPart {
+        width: 25% !important;
+    }
+    .middlePart {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1700px) {
+    .topBlueCard {
+        height: 500px;
+    }
+    .goal {
+        top: 320px;
+    }
+    .textLogo {
+        top: 240px;
+        right: 40%;
+        font-size: 22px;
+    }
+    .supportImg {
+        width: 27%;
+        left: 6%;
+    }
+    .contentImg {
+        width: 30%;
+    }
+    .rightPart,
+    .leftPart {
+        width: 20% !important;
+    }
+    .middlePart {
+        width: 60% !important;
+    }
+    .process1Box {
+        height: 790px;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1800px) {
+    .topBlueCard {
+        height: 500px;
+    }
+    .textLogo {
+        top: 248px;
+        right: 43%;
+    }
+    .goal {
+        top: 320px;
+    }
+    .supportImg {
+        width: 28%;
+    }
+    .process1Box {
+        height: 790px;
+    }
+    .rightPart,
+    .leftPart {
+        width: 25% !important;
+    }
+    .middlePart {
+        width: 50% !important;
+    }
+    .siteBoxImg {
+        width: 30%;
+    }
+    .contentImg {
+        width: 30%;
+        top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .topBlueCard {
+        height: 530px
+    }
+    .goal {
+        top: 350px;
+    }
+    .textLogo {
+        right: 42%;
+        top: 260px;
+    }
+    .rightPart,
+    .leftPart {
+        width: 25% !important;
+    }
+    .middlePart {
+        width: 50% !important;
+    }
+    .siteBoxImg {
+        width: 30%;
+    }
+    .process1Box {
+        height: 800px;
+    }
+    .supportImg {
+        width: 27%;
+    }
+    .contentImg {
+        width: 27%;
+    }
+}
+
+.sectionSuggestionStyle:hover {
+    transform: scale(1.035);
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 5px #7f6ed6);
+}
+
+
+/*
+280-320
+320-360
+360-375
+375-411
+411-454
+454-497
+497-540
+540-768
+768-1024
+*/
